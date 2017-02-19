@@ -1,0 +1,31 @@
+{
+    "name": "Power-Lan/oauth2-powerlan",
+    "description": "Power-Lan OAuth2 provider for league/oauth2-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William MARTIN",
+            "email": "william.martin@power-lan.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "league/oauth2-client": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "PowerLan\\OAuth2\\Client\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PowerLan\\OAuth2\\Client\\Tests\\": "tests"
+        }
+    }
+}

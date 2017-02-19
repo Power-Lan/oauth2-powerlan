@@ -1,5 +1,5 @@
 {
-    "name": "Power-Lan/oauth2-powerlan",
+    "name": "power-lan/oauth2-powerlan",
     "description": "Power-Lan OAuth2 provider for league/oauth2-client",
     "license": "MIT",
     "authors": [
